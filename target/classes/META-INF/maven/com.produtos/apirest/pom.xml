@@ -75,6 +75,11 @@
           <artifactId>maven-compiler-plugin</artifactId>
     	  <version>3.7.0</version>
   		  <configuration>
+  		       <archive>
+					<manifest>
+						<mainClass>com.produtos.apirest.ApirestApplicationTests</mainClass>
+					</manifest>
+				</archive>
        			 <verbose>true</verbose>
        			 <source>${java.version}</source>
 				 <target>${java.version}</target>
