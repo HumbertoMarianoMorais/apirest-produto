@@ -76,6 +76,8 @@
     	  <version>3.7.0</version>
   		  <configuration>
        			 <verbose>true</verbose>
+       			 <source>${java.version}</source>
+				 <target>${java.version}</target>
     	 </configuration>
 		</plugin>
 	</plugins>
